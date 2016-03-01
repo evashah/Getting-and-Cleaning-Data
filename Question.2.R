@@ -17,3 +17,4 @@ img <- readJPEG("./quiz3/jpeg.jpg",native=TRUE)
 # calculate quantile at 30th and 80th percentile
 quantile(img,probs=c(0.3,0.8))
 
+# 30th and 80th quantiles of the resulting data are -15259150, -10575416 
